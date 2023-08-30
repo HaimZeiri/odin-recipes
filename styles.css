@@ -25,3 +25,34 @@ img {
 h3 {
   color: red;
 }
+
+.main-title {
+  color: gold;
+  margin-bottom: 5px;
+  text-align: center;
+  border-bottom: 10px solid gold;
+  background-color: black;
+}
+
+.recipe-links {
+  border: 2px solid blue;
+  background-color: aqua;
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+
+.link {
+  background-color: white;
+  border: 1px solid blue;
+}
+
+.link:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.center-links {
+  text-align: center;
+  margin: auto;
+}
